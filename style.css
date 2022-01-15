@@ -1,0 +1,51 @@
+/* common style */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+/* ---------------------
+ header style naviganion maneu
+ ---------------- */
+.menu-area {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    justify-items: end;
+    padding: 10px;
+}
+.logo a{
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li a, .nav__search, .nav__cart {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 0px 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+.nav__search, .nav__cart{
+    cursor: pointer;
+}
